@@ -1,5 +1,8 @@
-# Bouncer 
-## A game about bouncing
+# Scala - libGDX and IntelliJ
+## Simple set up guide
+
+And finally I decided to give Scala a good run. Obviously I wanted to have fun along the way and making a game is always fun. The first step in any language learning process, the setup phase, is often the most daunting one.
+So to keep my notes I scribbled down the following.
 
 Using the following introduction to set up a project structure
 
