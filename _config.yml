@@ -1,6 +1,5 @@
-name: Your New Jekyll Site
+name: vojd randoms
 safe: true
 lsi: false
-source: . 
 markdown: redcarpet
 pygments: true
