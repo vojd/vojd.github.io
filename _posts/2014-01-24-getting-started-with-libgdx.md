@@ -1,4 +1,4 @@
-# Scala - libGDX and IntelliJ
+# Gettings started with Scala, libGDX and IntelliJ
 ## Simple set up guide
 
 And finally I decided to give Scala a good run. Obviously I wanted to have fun along the way and making a game is always fun. The first step in any language learning process, the setup phase, is often the most daunting one.
@@ -37,7 +37,7 @@ Now when it's done it's time to create the game template
 
 The project template is finished, time to update the dependencies with ``sbt``
 
-    sbt 
+    sbt
     >  update
 
 
@@ -48,7 +48,7 @@ If you encounter the following:
 
 Add the following to your .bash_profile
 
-    export ANDROID_SDK_HOME="/Users/mathias/dev/android_sdk/sdk"
+    export ANDROID_SDK_HOME="/Users/path/to/android_sdk/sdk"
 
 ## Create IntelliJ project
 Replace ``project/plugins.sbt`` with the following
@@ -70,7 +70,3 @@ Open the project in IntelliJ and start the game hacking! Almost...
 You might stumble upon this error when adding a library to the project
 ``/path/common/assets/ root already belongs to nested module "desktop"``
 To fix this problem, open ``Project Structure`` from the ``File`` menu, navigate to ``Modules``, check the ``desktop`` module and uncheck all red source folders. Mark ``src/main/scala`` as ``Sources`` and check Apply. This should do the trick.
-
-
-
-
